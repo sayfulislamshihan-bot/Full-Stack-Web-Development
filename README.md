@@ -23,7 +23,7 @@ Each module contains:
 * 🧪 Mini implementations (if applicable)
 
 
-# Example Structure:
+Example Structure:
 📦 Full-Stack-Web-Development
  ┣ 📂 Module-01-HTML-Basics
  ┃ ┣ 📜 index.html
