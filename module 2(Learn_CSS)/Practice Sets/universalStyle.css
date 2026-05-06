@@ -1,0 +1,52 @@
+h1{
+    color:maroon;
+    text-align: center;
+    background-color: cornflowerblue;
+    background-image: url('/WhatsApp\ Image\ 2026-02-02\ at\ 3.19.54\ AM.jpeg');
+    height: 1900px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.para {
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li,h1{
+    font-style:italic;
+}
+#h{
+    color: brown;
+    font-size:larger;
+    text-decoration: dotted;
+    text-align: center;
+    padding-bottom: 5px;
+}
+*{
+    margin: 0;
+}
+.list{
+    font-size: medium;
+    background-color: bisque;
+}
+#p1{
+    color: darkcyan;
+    text-align: right;
+}
+#p2{
+    color:tomato;
+     text-align:center;
+}
+#p3{
+    color:violet;
+}
+
+#s1{
+    /* height: 12px;
+    background-color: aquamarine;
+    background-image: url('2.png');
+    background-repeat: no-repeat; */
+    /* background-size: contain; */
+    /* background-position: center; */
+}
+

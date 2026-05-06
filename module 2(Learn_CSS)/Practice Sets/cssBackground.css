@@ -1,0 +1,57 @@
+#s1{
+    background-color: aquamarine;
+    height: 600px;
+    background-image: url('a.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#s1 h1{
+    text-align: center;
+    color:blue;
+}
+#s2{
+    background-color:antiquewhite;
+    height: 800px;
+    background-image: url('1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#s2 h1{
+    text-align: center;
+    color: aqua;
+}
+#s3{
+    background-color: aquamarine;
+    height: 1400px;
+    background-image: url('./2.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+#s3 h1{
+    text-align: center;
+    color: brown;
+}
+
+
+#H h1{
+    text-align: center;
+}
+
+#img img{
+    height: 300px;
+    width: 400px;
+}
+
+#pdiv .p{
+    background-color: aquamarine;
+    color: firebrick;
+    height: 150px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 10px 5px 50px green;
+    visibility:hidden;
+    
+}
+
