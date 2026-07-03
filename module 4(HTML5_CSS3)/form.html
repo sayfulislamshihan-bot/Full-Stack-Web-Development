@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .pi input{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <H1>HTML Form</H1>
+    </header>
+    <main>
+        <form>
+            <fieldset class="pi">
+                    <legend>personal info</legend>
+                    <label for="name">Name</label>
+                    <input placeholder="Enter name" type="text" name="" id="name">
+
+                    <label for="email">Email</label>
+                    <input placeholder="Enter your email" type="email" name="" id="email">
+            </fieldset>
+            <fieldset>
+                <legend>Address</legend>
+                <input type="radio" name="village" id="medda">
+                <label for="medda">Medda</label>
+
+                <input type="radio" name="village" id="gatora">
+                <label for="gatora">Gatora</label>
+
+                <input type="radio" name="village" id="morail">
+                <label for="morail">Morail</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Professional info</legend>
+                <input type="checkbox" name="exp" id="noexp">
+                <label for="noexp">No Experience</label>
+
+                <input type="checkbox" name="exp" id="1-2exp">
+                <label for="1-2exp">1-2 year Experience</label>
+
+                <input type="checkbox" name="exp" id="5exp">
+                <label for="5exp">5+ year Experience</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Extra info</legend>
+                <textarea cols="30" rows="20" name="" id=""></textarea>
+            </fieldset>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </form>
+    </main>
+</body>
+</html>
