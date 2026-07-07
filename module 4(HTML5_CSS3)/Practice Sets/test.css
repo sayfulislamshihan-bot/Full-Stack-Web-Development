@@ -1,0 +1,11 @@
+image, img{
+    height: 300px;
+    width: 350px;
+    margin: 10px;
+}
+/* .s1,.bar,form,input,label{
+    display: inline;
+} */
+.s2, .fom ,.i,.l{
+    display:block;
+}
