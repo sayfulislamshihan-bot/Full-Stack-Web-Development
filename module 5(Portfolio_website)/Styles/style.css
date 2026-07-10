@@ -1,0 +1,314 @@
+/* Shared property */
+*{
+    margin: 0;
+    padding: 0;
+}
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.orange-cha{
+    color: #FD6E0A;
+}
+
+.btn2{
+    padding: 19px 36px;
+    background-color: #FFF8F3;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FD6E0A;
+    border-radius: 5px;
+    border: 2px solid #FD6E0A;
+}
+
+.btn{
+    padding: 19px 36px;
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Main property */
+header{
+    padding-top: 50px;
+    background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: 23px 32px,right bottom;
+   
+}
+nav{
+    display: flex;
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.name h2{
+    font-size: 45px;
+    font-weight:900
+}
+
+.navigation{
+    max-width: 390px;
+}
+nav .navigation ul{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    align-items: center;
+}
+.navigation ul a{
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
+}
+
+.hero{
+    margin: 46px 53px 0 215px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero .hero-content h2{
+    font-size:45px;
+    color:#474747;
+    font-weight: 600;
+}
+.hero .hero-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 5px;
+    margin-bottom: 20px;
+}
+.hero .hero-content p{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+    
+}
+.hero .hero-content .hero-btn{
+    display: flex;
+    gap: 30px;
+}
+.hero .hero-image img{
+    max-width: 600px;
+    height: 640px;
+    vertical-align: middle;
+}
+
+
+#about{
+     padding: 130px 230px;
+}
+#about .about-container{
+    padding: 131px 157px;
+    text-align: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: #FFF8F3;
+}
+.personal-details{
+    display: flex;
+    gap: 50px;
+}
+
+#about h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+#about .info{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+#about .personal-details p{
+    color: #757575;
+    font-size: 17px;
+}
+#about .personal-details h5{
+    color: #474747;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#card-container{
+    padding: 0 230px 130px 230px;
+}
+
+#card-container .c-container{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1140px;
+}
+#card-container h1{
+    color: #181818;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#card-container p{
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+#card-container .cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#card-container .cards .card{
+    padding: 30px 33px;
+    text-align: left;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.103);
+    border: none;
+    border-radius: 5px;
+}
+#card-container .cards .card h4{
+    padding: 30px 0 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+}
+#card-container .cards .card p{
+    font-size: 16px;
+    color: #757575;
+}
+
+#resume-container{
+   padding: 0 277px 103px 277px;
+}
+
+#resume-container .r-container{
+    max-width: 1093px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.edu-exp{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#resume-container h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 113px;
+}
+.edu-exp .education{
+    text-align:left;
+    width: 515px;
+}
+.edu-exp .education h2{
+    font-size: 30;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.edu-exp .education h3{
+    font-size: 25;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.edu-exp .education .p1{
+    font-size: 20;
+    font-weight:400;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.edu-exp .education .p2{
+    font-size: 16;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.edu-exp hr{
+    margin-bottom: 30px;
+    opacity: 0.4;
+}
+
+.footer-container{
+    background-color: #FFF8F3;
+}
+
+.footer-container .form-container{
+    display: flex;
+    margin: 0 auto;
+    gap: 117px;
+    padding: 130px 230px;
+    max-width: 1140px;
+}
+.form-container .form-content{
+    max-width: 562px;
+}
+
+.footer-container .form-container h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.footer-container .form-container p{
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+    color: #474747
+}
+
+.footer-container .form-container img{
+    padding-right: 24px;
+}
+
+.footer-container .form-container .form-field{
+    display: block;
+
+}
+.footer-container .form-container .form h1{
+    margin-bottom: 28px;
+    font-family: 35px;
+    color:#181818;
+}
+
+.footer-container .form-container .form {
+    max-width: 461px;
+}
+
+.form form input[type="text"]{
+    width: 461px;
+    padding: 18px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 24px;
+}
+.form form input[type="email"]{
+    width: 461px;
+    padding: 18px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 24px;
+}
+.form form input[type="text"], .form form textarea{
+    width: 461px;
+    padding: 18px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 24px;
+}
+
