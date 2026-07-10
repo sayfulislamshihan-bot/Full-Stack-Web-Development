@@ -69,8 +69,8 @@ Each module contains:
 
 I share my progress and insights regularly:
 
-* LinkedIn: [Your LinkedIn Profile Link]
-* GitHub: [Your GitHub Profile Link]
+* LinkedIn: https://www.linkedin.com/in/sayful-islam-shihan/
+* GitHub: https://github.com/sayfulislamshihan-bot
 
 ---
 
