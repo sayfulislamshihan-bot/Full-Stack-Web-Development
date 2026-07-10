@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index</title>
+    <style>
+        .al img{
+            height: 100%;
+            width: 100%;
+        }
+        .boxboy{
+            position:relative;
+            width: 400px;
+            height: 400px;
+            top: 40px;              /* shift downwards */
+            z-index: 10;
+            /* left:23px ,right:50px;    shift right and left */
+        }
+
+        .boxcircle{
+            position:relative;  
+            width: 400px;
+            height: 400px;
+            top: -100px;             /* shift upwards */
+            z-index: 6;
+            /* left:23px ,right:50px;    shift right and left */
+        }
+
+        .boxwater{
+            position: relative;
+            width: 400px;
+            height: 400px;
+            top: -300px;
+            /* left:23px ,right:50px;    shift right and left */
+            z-index: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="al">
+        <div class="boxboy"><img src="./imh/boy.png" alt=""></div>
+        <div class="boxcircle"><img src="imh/circle.png" alt=""></div>
+        <div class="boxwater"><img src="./imh/water.jpg" alt=""></div>
+    </div>
+    </body>
+</html>
