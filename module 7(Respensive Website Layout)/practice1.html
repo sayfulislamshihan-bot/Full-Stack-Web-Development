@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .food-1{
+            display: flex;
+            margin-bottom: 10px;
+            gap: 20px;
+            border: 2px solid gray;
+            border-radius: 5px;
+        }
+        .container .food-1 .img{
+            width: 40%;
+        }
+        .container .food-1 .img img{
+            max-width: 100%;
+            height: auto;
+        }
+        .container .food-1 .content-container1{
+            width: 60%;
+        }
+        .container  h1{
+            margin-bottom: 5px;
+        }
+        .food-2{
+            display: flex;
+            gap: 20px;
+            border: 2px solid gray;
+            border-radius: 5px;
+        }
+        .container .food-2 .img{
+            width: 40%;
+        }
+        .container .food-2 .img img{
+            max-width: 100%;
+            height: auto;
+        }
+        .container .food-2 .content-container2{
+            width: 60%;
+        } 
+        .container .btn{
+            background-color: rgb(3, 69, 191);
+            padding: 10px;
+            color: aliceblue;
+        }   
+
+        @media screen and (max-width: 576px){
+            .container .food-1{
+                flex-direction: column;
+                margin-bottom: 3px;
+            }
+            .container .food-1 .img{
+                width: 100%;
+            }
+           .container .food-1 .content-container1{
+                width: 100%;
+                padding: 10px;
+            }
+            .container .food-2{
+                flex-direction: column;
+            }
+            .container .food-2 .img{
+                width: 100%;
+            }
+           .container .food-2 .content-container2{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="food-1">
+            <div class="img">
+            <img src="images/food1.jpg" alt="">
+            </div>
+            <div class="content-container1">
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate molestiae quae consequatur quaerat, libero temporibus. Dolore, repellendus officiis dicta minima sint dolorem laboriosam aliquid illum. Cupiditate rerum tempore aliquid minus, reprehenderit tempora quod sed veritatis sunt eligendi cumque, quaerat incidunt. Delectus magni earum unde ipsam cumque, nisi tempore quas. Impedit.</p>
+                <button class="btn">Read more</button>
+            </div>
+        </div>
+        <div class="food-2">
+            <div class="img">
+            <img src="images/food2.jpg" alt="">
+            </div>
+            <div class="content-container2">
+            <h1>Optio atque non eos aliquam!</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos hic fuga aspernatur autem quasi tempora voluptatibus reiciendis accusamus molestiae soluta illum facilis, velit nam repellendus incidunt voluptates sequi quibusdam inventore error! Vitae, quisquam. Ipsam aspernatur iusto repellat ad corporis non in provident praesentium, et officiis, voluptate officia molestiae quae nulla!</p>
+            <button class="btn">Read more</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
