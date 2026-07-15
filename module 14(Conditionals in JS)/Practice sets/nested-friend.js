@@ -9,22 +9,18 @@
 // use nested if-else-if-else
 
 let myScore = 81;
-let friendScore = 58;
+let friendScore = 55;
 
-if(myScore > 80){
+if(myScore >= 80){
     console.log("Entered the friend score");
     if(friendScore > 80){
         console.log("Let's go for a lunch");
     }
-    else if(friendScore < 80){
-        if(friendScore >= 60){
-            console.log("Good luck next time");
-        }
+    else if(friendScore < 80 || friendScore >= 60){
+            console.log("Good luck next time");  
     }
-    else if(friendScore < 60){
-        if(friendScore >= 40){
+    else if(friendScore < 60 || friendScore >= 40){
             console.log("Message unseen");
-        }
     }
     else if(friendScore < 40){
             console.log("Block friend");
