@@ -1,0 +1,363 @@
+
+/* shared property */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+
+/* Nav bar section */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 120px;
+    background-color: #FFFFFF;
+    max-width: 1600px;
+}
+
+.nav-bar .menu-items .list-content li{
+    list-style: none;
+}
+
+.menu-items .list-content{
+    display: flex;
+    gap: 32px;
+}
+
+.nav-bar .btn-1 button{
+    background-color: #469165;
+    max-width: 164px;
+    padding: 12px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+}
+
+.btn-1 button:hover{
+    background-color:rgba(139, 0, 139, 0.806);
+}
+
+
+
+
+/* Banner section */
+.bannar-container{
+    max-width: 1600px;
+    width: 110%;
+    background: url(../assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner-content{
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 150px 120px 140px 120px;
+}
+
+.banner-content .btn-2 button{
+    max-width: 229px;
+    padding: 8px 0;
+    padding-right: 12px;
+    padding-left: 6px;
+    background-color:#FFFFFF;
+    color: #469165;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 700px;
+    border: none;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.btn-2 button:hover{
+    background-color:rgba(139, 0, 139, 0.806);
+}
+
+.banner-heading h1{
+    max-width: 770px;
+    margin: 0 auto;
+    font-size: 72px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.banner-content p {
+    max-width: 1360px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.shared-btns{
+    max-width: 465px;
+    margin: 0 auto;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.btn-arrow{
+    display:inline-flex;
+    align-items: center;      
+    gap: 10px;                
+    padding: 16px 16px;
+    border: none;
+    background-color: #469165;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.shared-btns .btn-arrow:hover{
+    background-color:rgba(139, 0, 139, 0.806);
+}
+
+.btn-work{
+    display:inline-flex;
+    align-items: center;     
+    gap: 10px;                
+    padding: 16px 16px;
+    border: none;
+    background:none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    border:  1px solid white;
+}
+
+.shared-btns .btn-work :hover{
+    background-color:rgba(139, 0, 139, 0.806);
+}
+
+
+
+/* card or notes section*/
+.card{
+    background-color:#ffffff;
+    max-width: 1600px;
+}
+
+.card-container {
+    max-width: 1360px;
+    margin:0 120px;
+    text-align: center;
+}
+
+.heading .h1-tag h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    padding-top: 40px;
+    margin-bottom: 16px;
+}
+
+.heading-section p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+
+.cards-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1 img{
+    background-color:#F95555;
+    max-width: 50px;
+    border-radius: 50%;
+    border: 15px solid #F95555;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.card1{
+    max-width: 322px;
+    text-align: center;
+    padding: 24px;
+    box-shadow: 0  1px  2px #000000;
+    border-radius: 5px;
+}
+
+.card1 h3{
+    margin-bottom:16px;
+    font-size: 24px;
+    font-weight:700;
+    color: #001931;
+}
+
+.card1 p{
+   font-size: 16px;
+   line-height: 20px;
+   color: #627382;
+}
+
+
+
+
+/* Brain section  */
+.brain{
+    max-width: 1600px;
+}
+
+.brain-container {
+    max-width: 1360px;
+    margin: 120px;
+    display: flex;
+    gap: 60px;
+}
+
+.brain-container .brain-img{
+    max-width: 600px;
+}
+
+.brain-container .content{
+    max-width: 700px;
+    margin: 102px 0;
+}
+
+.content .content-title #p1{
+    font-size: 16px;
+    line-height: 20px;
+    color: #469165;
+    text-align: left;
+    margin-bottom: 16px;
+    font-weight: 400;
+}
+
+.content .content-title #title{
+    font-size: 45px;
+    font-weight: bold;
+    color: #001931;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.content .content-title #p2{
+    font-size: 16px;
+    line-height: 20px;
+    color:#627382;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.content-title{
+    margin-bottom: 40px;
+}
+
+.content .content-checklist{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+
+
+/* early access section */
+.early-access{
+    max-width: 1600px;
+}
+
+ .early-access  .early-access-container{
+        max-width: 1360px;
+        margin: 2px 120px 120px 120px;
+        text-align: center;
+        padding: 80px 40px;
+        background-color: #F7F6F2;
+}
+
+.early-access-container .title-section h1{
+    font-size: 40px;
+    font-weight: bold;
+    color:#001931;
+    margin-bottom: 16px;
+}
+
+.early-access-container .title-section{
+    max-width: 1280px;
+}
+.early-access-container .title-section p{
+    font-size: 16px;
+    line-height: 24px;
+    color:#627382;
+    margin-bottom: 16px;
+}
+
+.btn{
+     background-color: #469165;
+     border: none;
+     padding: 18px 35px;
+     border-radius: 5px;
+     font-size: 15px;
+     color: #FFFFFF;
+     font-weight: 200;
+     cursor: pointer;
+     margin-bottom: 16px;
+}
+
+.button-section button:hover{
+    background-color:rgba(139, 0, 139, 0.806);
+}
+
+.button-section p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+
+
+
+
+/* footer section */
+.footer{
+    max-width: 1600px;
+    background-color: #001931;
+    padding: 120px 120px 30px 120px;
+}
+
+.logo-media-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.media h4{
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.media .icons{
+    display: flex;
+    gap: 16px; 
+}
+
+.horizontal-line{
+    margin-bottom:30px;
+    color:#E5E7EB;                                                                                                         
+}
+
+.copyright{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+}
+
