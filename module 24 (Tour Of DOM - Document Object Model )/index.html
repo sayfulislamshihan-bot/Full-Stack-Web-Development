@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Of DOM</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <style>
+        h1{
+            color:green;
+        }
+    </style>
+</head>
+<body>
+   <section>
+     <h1>Tour Of DOM</h1>
+    <ul>
+        <li class="weekend">sat</li>
+        <li class="weekdays">sun</li>
+        <li class="weekdays">mon</li>
+        <li class="weekdays">tues</li>
+    </ul>
+   </section>
+   <section>
+    <h1 id="food-title">Foods i love</h1>
+    <ul>
+        <li>Banana</li>
+        <li id="2nd-food">Meat</li>
+        <li>Fish</li>
+        <li>lentils</li>
+    </ul>
+   </section>
+
+   <section id="query-section">
+      <h1>Lorem <span>ipsum dolor</span> sit amet.</h1>
+      <p>Lorem ipsum dolor sit amet <span>consectetur adipisicing elit. Voluptate</span>enim quo cum, repellat aliquam <span>saepe fugiat, eos repellendus impedit</span> eius nisi deserunt eveniet ratione explicabo ab beatae facere incidunt aut.</p>
+   </section>
+    <script>
+        console.log("Hello from inside Javascript");
+
+        const student = {
+            name: 'Ali',
+            id: 231,
+            study: function (subject){
+                console.log("studying subject: ",subject)
+            }
+        }
+
+        const liCollection = document.getElementsByTagName('li');
+        console.log(liCollection);
+        // for(const li of liCollection){
+        //     console.log(li.innerHTML);
+        // }
+
+        const idH1 = document.getElementById('food-title');
+        console.log(idH1.innerText);
+        // idH1.innerText = 'Foods i love to eat'
+        
+        const changefood = document.getElementById('2nd-food');
+        console.log(changefood.innerText);
+        changefood.innerText = "stack";
+        console.log(changefood.innerText);
+
+        const weekElements = document.getElementsByClassName('weekdays');
+        for(const element of weekElements){
+            console.log(element.innerText);
+        } 
+
+
+         const WeekElements = document.getElementsByClassName('weekend');
+         for(const element of WeekElements){
+            console.log(element.innerText);
+        } 
+
+        const spanElements = document.querySelectorAll('#query-section span');
+        for(const element of spanElements){
+            console.log(element.innerText);
+        }
+
+
+    </script>
+    <script src="./js/hello.js"></script>
+</body>
+</html>
