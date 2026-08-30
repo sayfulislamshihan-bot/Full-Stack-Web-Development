@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API card</title>
+    <style>
+        #card-container{
+            max-width: 1140px;
+            margin: 10px auto;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+        }
+        .card{
+            border: 2px solid rgba(0, 0, 0, 0.212);
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px 1px gray;
+            padding: 20px;
+            height: 300px;
+        }
+        .card h4{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>All Cards</h1>
+    <button onclick="cardFunc()">Show Cards</button>
+    <div id="card-container">
+
+    </div>
+    <script src="./card.js"></script>
+</body>
+</html>
